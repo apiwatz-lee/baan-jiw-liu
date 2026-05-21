@@ -255,15 +255,15 @@ export default function Contact() {
             <div className='relative flex-grow min-h-[300px] w-full rounded-[36px] overflow-hidden border border-[#D8C4B6]/25 shadow-sm shadow-[#6B4F3A]/5 bg-stone-100'>
               <iframe
                 title='Baan Jiw Liu Location Map - MRT Phasi Charoen'
-                src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3876.103759600109!2d100.4328221!3d13.7126131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e2962453676839%3A0xea5f4581dfb47ef0!2sPhasi%20Charoen!5e0!3m2!1sen!2sth!4v1700000000000'
-                width='100%'
-                height='100%'
+                src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4441.358823624227!2d100.43447387565695!3d13.71269738667511!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e297bcf73c8ba9%3A0x79ec247faf019239!2z4Lia4LmJ4Liy4LiZ4LiI4Li04LmL4Lin4Lir4Lil4Li04Lin!5e1!3m2!1sth!2sth!4v1779369461718!5m2!1sth!2sth'
+                width='600'
+                height='450'
                 style={{ border: 0 }}
                 allowFullScreen
                 loading='lazy'
                 referrerPolicy='no-referrer-when-downgrade'
-                className='absolute inset-0'
               />
+
               {/* Soft visual overlays */}
               <div className='absolute bottom-4 left-4 bg-white/95 backdrop-blur-sm px-4 py-3 rounded-full flex items-center gap-2 shadow-md border border-[#D8C4B6]/20'>
                 <MapPin className='w-4 h-4 text-[#C8A97E]' />
