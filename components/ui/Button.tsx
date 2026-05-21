@@ -29,13 +29,17 @@ export default function Button({
   disabled,
   type = 'button',
 }: ButtonProps) {
-  const baseStyles = 'inline-flex items-center justify-center font-medium rounded-full transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none';
-  
+  const baseStyles =
+    'inline-flex items-center justify-center font-medium rounded-full transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none';
+
   const variants = {
-    primary: 'bg-[#6B4F3A] text-[#F5EFE6] hover:bg-[#5A4230] shadow-md shadow-[#6B4F3A]/10 focus:ring-[#6B4F3A]',
+    primary:
+      'bg-[#6B4F3A] text-[#F5EFE6] hover:bg-[#5A4230] shadow-md shadow-[#6B4F3A]/10 focus:ring-[#6B4F3A]',
     gold: 'bg-[#C8A97E] text-white hover:bg-[#bfa075] shadow-md shadow-[#C8A97E]/10 focus:ring-[#C8A97E]',
-    secondary: 'bg-[#D8C4B6] text-[#6B4F3A] hover:bg-[#cbb5a5] focus:ring-[#D8C4B6]',
-    outline: 'bg-transparent border border-[#6B4F3A] text-[#6B4F3A] hover:bg-[#6B4F3A] hover:text-[#F5EFE6] focus:ring-[#6B4F3A]',
+    secondary:
+      'bg-[#D8C4B6] text-[#6B4F3A] hover:bg-[#cbb5a5] focus:ring-[#D8C4B6]',
+    outline:
+      'bg-transparent border border-[#6B4F3A] text-[#6B4F3A] hover:bg-[#6B4F3A] hover:text-[#F5EFE6] focus:ring-[#6B4F3A]',
   };
 
   const sizes = {
@@ -59,7 +63,7 @@ export default function Button({
 
   if (href) {
     return (
-      <a href={href} target={target} rel={rel} className="inline-block">
+      <a href={href} target={target} rel={rel} className='inline-block'>
         {buttonContent}
       </a>
     );
