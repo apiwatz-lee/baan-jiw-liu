@@ -90,7 +90,7 @@ export default function Navbar() {
           </a>
 
           {/* Desktop Navigation */}
-          <nav className='hidden lg:flex items-center overflow-x-scroll gap-8'>
+          <nav className='hidden lg:flex items-center overflow-x-scroll no-scrollbar gap-8'>
             {NAV_LINKS.map((link) => {
               const sectionId = link.href.substring(1);
               const isActive = activeSection === sectionId;
